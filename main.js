@@ -1,0 +1,1 @@
+ScrollReveal().reveal(".cardsc", {delay: 200, easing: "ease-out", interval: 200, scale: .2, reset: true})
