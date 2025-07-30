@@ -1346,6 +1346,9 @@ button{
     .service-col{
         height: 125vh;
     } 
+    .foot{
+        height: 125vh;
+    }
     .services-background{
         height: 385vh;
     }
@@ -1388,7 +1391,7 @@ button{
         margin-top: 8px;
     }
     .foot{
-        height: 105vh;
+        height: 110vh;
     }
     .services-background{
         height: 430vh;
@@ -1442,7 +1445,7 @@ button{
         height: 130vh;
     }
     .foot{
-        height: 45vh;
+        height: 55vh;
     }
     .fish5{
         width: 220px;
@@ -1471,6 +1474,9 @@ button{
     .title::after{
         margin-top: 1px;
     }
+    .foot {
+        height: 40vh;
+    }
     .fish5{
         width: 260px;
         margin-left: 73%;
@@ -1484,12 +1490,16 @@ button{
  
 }
 
+
 /*//lg end//*/
 /*//extra large start//*/
 @media (min-width:1200px) and (max-width:1399px){
     .fish5{
         width: 260px;
         margin-left: 76%;
+    }
+     .foot {
+        height: 50vh;
     }
 }
 /*//extra large end//*/
