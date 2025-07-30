@@ -1167,7 +1167,7 @@ body{
   
 }
 .card5{
-    background: linear-gradient(396.49deg, #db5b5b12 1.87% 1.87%, #ffffff 84.84%) !important;
+    background: linear-gradient(396.49deg, #f951332e 1.87% 1.87%, #ffffff 84.84%) !important;
     border-radius: 20px !important;
     border: none;  
     font-family: 'Krub', sans-serif;
@@ -1184,8 +1184,8 @@ body{
 .footer{
     background-color: black;
     color: white;
-    margin-top: 20px;
-    padding-bottom: 180px;
+    margin-top: 10px;
+    padding-bottom: 70px;
 
 }
 .footer-img{
