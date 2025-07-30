@@ -822,7 +822,6 @@ body{
 
 
 .services-background {
-    height: 310vh;
     width: 100%;
     /* background-image: linear-gradient(to top, #EEFCFF, #F9FEFF , #ffffff 60%); */
 }
@@ -882,9 +881,7 @@ body{
         margin-top: 118px;
         padding: 15px;
     }
-    .services-background{
-        height: 152vh;
-    }
+   
 }
 
 @media screen and (min-width: 992px) {
@@ -1048,7 +1045,7 @@ body{
 }
 
 .root-about{
-    background: linear-gradient(396.49deg, #f9513321 1.87% 1.87%, #ffffff 84.84%) !important;
+    background: linear-gradient(336.49deg, #f9513321 1.87% 1.87%, #ffffff 84.84%) !important;
         border: none;
         border-radius: 25px !important;
   }
@@ -1250,8 +1247,8 @@ body{
 
 
 .foot{
-        background-image: linear-gradient(to top, #8c1500, #510c00, #2c0700, #000000, #040200, black, black);
-
+    background-image: url("images/map3.png");
+        background-color: black;
     border-top: 1px solid slategrey;
     height: 35vh;
 
@@ -1288,9 +1285,10 @@ button{
         margin-top: 12px;
         
     }
-    .services-background{
-        height: 335vh;
+    .foot{
+        height: 105vh;
     }
+    
     .fish5{
         width: 170px;
         margin-left: 42%;
@@ -1348,6 +1346,9 @@ button{
     .service-col{
         height: 125vh;
     } 
+    .services-background{
+        height: 385vh;
+    }
     .about-container{
         margin-top: 130%;
     } 
@@ -1386,8 +1387,11 @@ button{
     .title::after{
         margin-top: 8px;
     }
+    .foot{
+        height: 105vh;
+    }
     .services-background{
-        height: 230vh;
+        height: 430vh;
     }
     .fish5{
         width: 260px;
@@ -1433,6 +1437,13 @@ button{
     .title::after{
         margin-top: 4px;
     } 
+
+      .services-background{
+        height: 130vh;
+    }
+    .foot{
+        height: 45vh;
+    }
     .fish5{
         width: 220px;
         margin-left: 70%;
@@ -1497,27 +1508,19 @@ button{
 
 
 @media (min-width: 576px) {
-    .services-background {
-        height: 165vh;
-    }
+   
 }
 
 @media (max-width: 767px) {
-    .services-background {
-        height: 480vh;
-    }
+   
 }
 
 @media (min-width: 375px) and (max-width: 480px){
-    .services-background {
-        height: 330vh;
-    }
+  
 }
 
 @media (max-width: 600px) {
-    .services-background {
-        height: 485vh;
-    }
+
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
