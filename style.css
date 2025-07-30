@@ -1349,8 +1349,11 @@ button{
     .foot{
         height: 125vh;
     }
+    .about-container{
+        height: 5vh;
+    }
     .services-background{
-        height: 385vh;
+        height: 345vh;
     }
     .about-container{
         margin-top: 130%;
@@ -1394,7 +1397,7 @@ button{
         height: 110vh;
     }
     .services-background{
-        height: 430vh;
+        height: 500vh;
     }
     .fish5{
         width: 260px;
