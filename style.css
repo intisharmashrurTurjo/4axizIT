@@ -1321,7 +1321,7 @@ button{
         height: 50vh;
     }
     .footer{
-        margin-top: 390%;
+        margin-top: 35%;
     }
 }
 
@@ -1337,13 +1337,19 @@ button{
         height: 105vh;
         margin-top: 230%;
     }  
+    .vision2{
+        height: 165vh
+    }
 }
 @media (min-width:375px) and (max-width:575.98px){
     .service-col{
         height: 125vh;
     } 
+    .vision2{
+        height: 150vh;
+    }
     .foot{
-        height: 125vh;
+        height: 115vh;
     }
     .about-container{
         height: 5vh;
@@ -1365,7 +1371,7 @@ button{
         height: 60vh !important;
     }
     .footer{
-        margin-top: 300%;
+        margin-top: 40%;
     }
 }
 @media (min-width:475px) and (max-width:575.98px){
@@ -1407,7 +1413,9 @@ button{
         height: 105vh;
         margin-top: -50%;
     } 
-
+    .vision2{
+        height: 220vh;
+    }
     .vision2 .col-md-7{
         margin-top: 3% !important;
     }
