@@ -26,7 +26,7 @@ window.onscroll = () => {
                     if (start == end) {
                         clearInterval(count);
                     }
-                }, 2000 / end)
+                }, 3000 / end)
             })
         }
         test = true;
@@ -48,7 +48,7 @@ var swiper = new Swiper(".mySwiper", {
     rotate: 0,
     stretch: 0,
     depth: 150,
-    modifier: 2.5,
+    modifier: 4,
     slideShadows: true,
   },
   autoplay:{
