@@ -1046,7 +1046,7 @@ body{
 
 .root-about{
     background: linear-gradient(336.49deg, #f9513321 1.87% 1.87%, #ffffff 84.84%) !important;
-        border: none;
+        border: 0.5px solid #57575724;
         border-radius: 25px !important;
   }
   .root-about h3{
@@ -1105,6 +1105,7 @@ body{
     border-radius: 25px !important;
     margin: 1% 0;
     background: linear-gradient(396.49deg, #f9513321 1.87% 1.87%, #ffffff 84.84%) !important;
+    border: 0.5px solid #57575724;
 }
 .team-vision{
 
@@ -1132,7 +1133,7 @@ body{
     font-weight: 400;
 }
 .card3{
-    border: none;
+    border: 0.5px solid #57575724;
     margin-left: 25px;
     padding: 10px !important;
     margin: 13px 0;
@@ -1171,6 +1172,7 @@ body{
     border-radius: 20px !important;
     border: none;  
     font-family: 'Krub', sans-serif;
+    border: 0.5px solid #57575724;
 }
 .card5 h3{
     
@@ -1664,4 +1666,69 @@ button{
 
 html.sr .card {
     visibility: hidden;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+.collection{
+    height: auto;
+    background-color: white;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.collection .content{
+    height: 24rem;
+    width: 19rem;
+   background: linear-gradient(396.49deg, #fff0f0 1.87% 1.87%, #ffffff 84.84%) !important;
+    border-radius: .7rem;
+    border: 0.5px solid #57575724;
+    overflow: hidden;
+    /* padding: .2rem; */
+}
+
+.content img{
+    width: 100%;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+.text-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-content h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.text-content p{
+    max-width: 22rem;
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+}
+.btn{
+    background-color: white;
+    padding: .2rem;
+    border: 2px solid #F95133;
+    outline: none;
+    font-size: .8rem;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    color: black;
+}
+
+.swiper-3d {
+    perspective: 1200px;
+}
+.swiper-horizontal {
+    touch-action: pan-y;
 }
