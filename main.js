@@ -1,4 +1,4 @@
-ScrollReveal().reveal(".cardsc", {delay: 100, easing: "ease-in", interval: 100, scale: .1, reset: true})
+ScrollReveal().reveal(".cardsc", {delay: 50, easing: "ease-in", interval: 50, scale: .1, reset: true})
 
 
 
